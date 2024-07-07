@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<canvas id="40ee76ae484d42b499afb2a6f876cecb"></canvas>
+<script>
+var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAAnCAYAAABDjWX2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKWSURBVGhD7ZrtbcIwEIYZoT8BIcgPvpJfjNAN2hHYqGzSbsAIjMAo7j3mLnWC+WwrBeyTXilYdnL36r5s07tHiqJ4WS6X68VisRHs5HkvcB0Eem3Rcz6fv8tzoSb8n8hHXvmoIKbQQ0AI+4QwNenvRF5+RM50OnWTycSNRiM3HA5dv9/vHNAL/dATfUP9BfvZbLZSE+8XwkqY/7AXy7OTMTcYDKJKdR2QNh6PnXhSTVZZlh/YqSbfJvKCQuBzzaOTEwP2GFFq5235igW60LPe1XD6LbAr8KrriWKiLnASs0/lPTFgH3Zir9p9nihiMyWCDG2izuYoS9K4YCoEGbDXQo9krpQ0paqqlTL5tDnoErCbIqU8vCo1PyKDPszI+rEXpIKg6m2VmoOIm9Gye3eLLUwJhF3Um2Twk0EardjC1HDkTfJAyfeDqeaiNvAm48RXOgs19jaxBaki2OutCbUNP9gExianCviAF/gh3Pzunt1ybHKqgA94kZ5pV5f+nI+agA94gR9I8j9iE1OHcZNJOoNM0hUISco5KYJGTpISx21Hrm4tWHUTbHOfdALtPmnNj9xxN2Edd1VVb3Ya6QdSO2g7hSAfgcNxrjz4rjv1syQDpyHwIaH25QlCZIDLR3+Okr2pXx/j+lALRQazNwmCs6S9UvMjMlh7U6o9U5iLTl6BWzuAu6UWdthrYebL/inRSpfv3c7duyEyKd/gXiNM1AXeBZ81R2GXhZjae/+fJsAzVT28B3soUmrf7QSZEJuWzAGs02g9qmdFyPFJ+mIOukYoh/LC2qsAexs2geyWu0oaeqEfega3Hwb6wuOr7N+KeNJ7WZb+IvOB8T/ktEU+UkCYhiIfbXhZh7AXHXeq5/q+sOr1vgFp8/PY1ni8mgAAAABJRU5ErkJggg=='];function LoadImagesAndRender(){var loadedImages=0;for(var i=0;i<images.length;i++){var source=images[i];images[i]=new Image();images[i].src=source;images[i].onload=function(){loadedImages++;if (loadedImages==images.length){Render();}};}}function Render(){let a=document.getElementById('40ee76ae484d42b499afb2a6f876cecb');let b=a.getContext('2d');a.width=73;a.height=39;b.drawImage(images[0],0,0,73,39,0,0,73,39);}window.addEventListener('onload',LoadImagesAndRender());
+</script>
+</body>
+</html>
